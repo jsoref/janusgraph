@@ -409,7 +409,7 @@ Learn more about this feature and how to configure your server to use said featu
     If you are connected to a remote Gremlin Server using the Gremlin Console and a **sessioned** connection, then you will have to reconnect to the server to bind the variables. This is also true for any sessioned WebSocket connection.
 
 !!! IMPORTANT
-    The JanusGraphManager rebinds every graph stored on the ConfigurationManagementGraph (or those for which you have created configurations) every 20 seconds. This means your graph and traversal bindings for graphs created using the ConfigredGraphFactory will be available on all JanusGraph nodes with a maximum of a 20 second lag. It also means that a binding will still be available on a node after a server restart.
+    The JanusGraphManager rebinds every graph stored on the ConfigurationManagementGraph (or those for which you have created configurations) every 20 seconds. This means your graph and traversal bindings for graphs created using the ConfiguredGraphFactory will be available on all JanusGraph nodes with a maximum of a 20 second lag. It also means that a binding will still be available on a node after a server restart.
 
 
 ### Binding Example
