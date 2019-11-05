@@ -82,7 +82,7 @@ The `:remote` command tells the console to configure a remote connection
 to Gremlin Server using the `conf/remote.yaml` file to connect. That
 file points to a Gremlin Server instance running on `localhost`. The
 `:>` is the "submit" command which sends the Gremlin on that line to the
-currently active remote. By default remote conenctions are sessionless,
+currently active remote. By default remote connections are sessionless,
 meaning that each line sent in the console is interpreted as a single
 request. Multiple statements can be sent on a single line using a
 semicolon as the delimiter. Alternately, you can establish a console
