@@ -52,7 +52,7 @@ three folders to the root of the janusgraph repository:
 * redhat
 
 The debian and redhat folders contain platform-specific packaging
-conttrol and payoad files.  The pkgcommon folder contains shared
+control and payoad files.  The pkgcommon folder contains shared
 payload and helper scripts.
 
 To build the .deb and .rpm packages:
