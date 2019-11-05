@@ -195,7 +195,7 @@ Solr index configuration
 | Name | Description | Datatype | Default Value | Mutability |
 | ---- | ---- | ---- | ---- | ---- |
 | index.[X].solr.configset | If specified, the same solr configSet can be reused for each new Collection that is created in SolrCloud. | String | (no default value) | MASKABLE |
-| index.[X].solr.dyn-fields | Whether to use dynamic fields (which appends the data type to the field name). If dynamic fields is disabledthe user must map field names and define them explicitly in the schema. | Boolean | true | GLOBAL_OFFLINE |
+| index.[X].solr.dyn-fields | Whether to use dynamic fields (which appends the data type to the field name). If dynamic fields is disabled, the user must map field names and define them explicitly in the schema. | Boolean | true | GLOBAL_OFFLINE |
 | index.[X].solr.http-compression | Enable/disable compression on the HTTP connections made to Solr. | Boolean | false | MASKABLE |
 | index.[X].solr.http-connection-timeout | Solr HTTP connection timeout. | Integer | 5000 | MASKABLE |
 | index.[X].solr.http-max | Maximum number of HTTP connections in total to all Solr servers. | Integer | 100 | MASKABLE |

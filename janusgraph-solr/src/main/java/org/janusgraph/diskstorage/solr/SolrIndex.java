@@ -156,7 +156,7 @@ public class SolrIndex implements IndexProvider {
             ConfigOption.Type.GLOBAL_OFFLINE, "cloud");
 
     public static final ConfigOption<Boolean> DYNAMIC_FIELDS = new ConfigOption<>(SOLR_NS,"dyn-fields",
-            "Whether to use dynamic fields (which appends the data type to the field name). If dynamic fields is disabled" +
+            "Whether to use dynamic fields (which appends the data type to the field name). If dynamic fields is disabled, " +
                     "the user must map field names and define them explicitly in the schema.",
             ConfigOption.Type.GLOBAL_OFFLINE, true);
 
