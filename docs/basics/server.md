@@ -342,7 +342,7 @@ authentication: {
 !!! important
     In the preceding example, credentialsDb should be different from the graph(s) you are using. It should be configured with the correct backend and a different keyspace, table, or storage directory as appropriate for the configured backend. This graph will be used for storing usernames and passwords.
 
-If you are connecting through the gremlin console, your remote yaml file should ammend the `username` and `password` properties with the appropriate values.
+If you are connecting through the gremlin console, your remote yaml file should amend the `username` and `password` properties with the appropriate values.
 
 ```yaml
 username: user
