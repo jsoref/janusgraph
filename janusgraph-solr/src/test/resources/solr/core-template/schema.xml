@@ -415,7 +415,7 @@
         <filter class="solr.KeywordMarkerFilterFactory" protected="protwords.txt"/>
         <filter class="solr.EnglishMinimalStemFilterFactory"/>
         <!-- this filter can remove any duplicate tokens that appear at the same position - sometimes
-             possible with WordDelimiterFilter in conjuncton with stemming. -->
+             possible with WordDelimiterFilter in conjunction with stemming. -->
         <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
       </analyzer>
     </fieldType>
