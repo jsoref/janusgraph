@@ -530,7 +530,7 @@ public abstract class IndexProviderTest {
 
 
             //Update some data
-            add(store, "doc4", getDocument("I'ts all a big Bob", -100, 11.2, Geoshape.point(-48.0, 8.0), Geoshape.point(-48.0, 8.0), Arrays.asList("10", "11", "12"), Sets.newHashSet("10", "11"), Instant.ofEpochSecond(4),
+            add(store, "doc4", getDocument("It's all a big Bob", -100, 11.2, Geoshape.point(-48.0, 8.0), Geoshape.point(-48.0, 8.0), Arrays.asList("10", "11", "12"), Sets.newHashSet("10", "11"), Instant.ofEpochSecond(4),
                 false), true);
             remove(store, "doc2", doc2, true);
             remove(store, "doc3", ImmutableMultimap.of(WEIGHT, 10.1), false);
