@@ -146,7 +146,7 @@ public class GraphDatabaseConfiguration {
 
     public static final ConfigOption<String> INITIAL_STORAGE_VERSION = new ConfigOption<>(GRAPH_NS,"storage-version",
             "The version of JanusGraph storage schema with which this database was created. Automatically set on first start of graph. " +
-            "Should only ever be changed if upgraing to a new major release version of JanusGraph that contains schema changes",
+            "Should only ever be changed if upgrading to a new major release version of JanusGraph that contains schema changes",
             ConfigOption.Type.FIXED, String.class);
 
     public static ConfigOption<Boolean> ALLOW_UPGRADE = new ConfigOption<>(GRAPH_NS, "allow-upgrade",
