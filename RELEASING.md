@@ -56,7 +56,7 @@ Steps below were taken from [this guide.](https://maven.apache.org/guides/mini/g
 
 ```xml
 <settingsSecurity>
-  <master>{master passsword}</master>
+  <master>{master password}</master>
 </settingsSecurity>
 ```
 
