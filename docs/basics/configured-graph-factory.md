@@ -429,7 +429,7 @@ gremlin> graph1_traversal
 
 ## Examples
 
-It is reccomended to use a sessioned connection when creating a
+It is recommended to use a sessioned connection when creating a
 Configured Graph Factory template. If a sessioned connection is not used
 the Configured Graph Factory Template creation must be sent to the
 server as a single line using semi-colons. See details on sessions can
