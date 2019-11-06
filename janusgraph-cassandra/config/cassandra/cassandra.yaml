@@ -654,7 +654,7 @@ client_encryption_options:
     keystore: ${cassandra.clientenc.kspath}
     keystore_password: ${cassandra.clientenc.kspw}
     require_client_auth: ${cassandra.clientenc.ccert}
-    # Set trustore and truststore_password if require_client_auth is true
+    # Set truststore and truststore_password if require_client_auth is true
     truststore: ${cassandra.clientenc.tspath} #conf/.truststore
     truststore_password: ${cassandra.clientenc.tspw}
     # More advanced defaults below:
