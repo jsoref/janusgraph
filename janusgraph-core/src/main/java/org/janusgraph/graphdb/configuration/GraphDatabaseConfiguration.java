@@ -635,7 +635,7 @@ public class GraphDatabaseConfiguration {
             "between concurrent JanusGraph graph instances within the same process which are connected to the same " +
             "storage backend.  JanusGraph instances that have the same value for this variable will attempt to discover " +
             "lock contention among themselves in memory before proceeding with the general-case distributed locking " +
-            "code.  JanusGraph generates an appropriate default value for this option at startup.  Overridding " +
+            "code.  JanusGraph generates an appropriate default value for this option at startup.  Overriding " +
             "the default is generally only useful in testing.", ConfigOption.Type.LOCAL, String.class);
 
 
