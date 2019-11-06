@@ -1117,7 +1117,7 @@ public abstract class IndexProviderTest {
     }
 
     @Test
-    public void testPersistantIndexData() throws BackendException {
+    public void testPersistentIndexData() throws BackendException {
         final String store = "vertex";
 
         final Multimap<String, Object> initialDoc = ArrayListMultimap.create();
