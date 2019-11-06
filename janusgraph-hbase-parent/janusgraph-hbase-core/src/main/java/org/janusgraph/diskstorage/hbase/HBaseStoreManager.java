@@ -143,7 +143,7 @@ public class HBaseStoreManager extends DistributedStoreManager implements KeyCol
 
     public static final ConfigOption<String> HBASE_SNAPSHOT_RESTORE_DIR =
             new ConfigOption<>(HBASE_NS, "snapshot-restore-dir",
-            "The tempoary directory to be used by HBaseSnapshotInputFormat to restore a snapshot." +
+            "The temporary directory to be used by HBaseSnapshotInputFormat to restore a snapshot." +
             " This directory should be on the same File System as the HBase root dir.",
             ConfigOption.Type.LOCAL, System.getProperty("java.io.tmpdir"));
 
