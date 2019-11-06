@@ -65,7 +65,7 @@ public interface TransactionBuilder {
      * expected.
      *
      * @param size The initial size of the transaction's dirty vertex collection
-     * @return Object containing properties that configure inital map size of modified vertices
+     * @return Object containing properties that configure initial map size of modified vertices
      */
     TransactionBuilder dirtyVertexSize(int size);
 
