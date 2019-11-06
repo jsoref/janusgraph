@@ -138,7 +138,7 @@ public class HBaseStoreManager extends DistributedStoreManager implements KeyCol
 
     public static final ConfigOption<String> HBASE_SNAPSHOT =
             new ConfigOption<>(HBASE_NS, "snapshot-name",
-            "The name of an exising HBase snapshot to be used by HBaseSnapshotInputFormat",
+            "The name of an existing HBase snapshot to be used by HBaseSnapshotInputFormat",
             ConfigOption.Type.LOCAL, "janusgraph-snapshot");
 
     public static final ConfigOption<String> HBASE_SNAPSHOT_RESTORE_DIR =
